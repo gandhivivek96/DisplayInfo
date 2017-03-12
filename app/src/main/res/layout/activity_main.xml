@@ -140,8 +140,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/male"
-            android:onClick="onRadioButtonClicked"
-            android:layout_alignBaseline="@+id/female"
+        android:layout_alignBaseline="@+id/female"
             android:layout_alignBottom="@+id/female"
             android:layout_toLeftOf="@+id/submitbutton"
             android:layout_toStartOf="@+id/submitbutton" />
@@ -153,7 +152,8 @@
             android:id="@+id/female"
             android:layout_below="@+id/submitbutton"
             android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true"/>
+            android:layout_alignParentEnd="true"
+            />
     </RadioGroup>
 
     <Button
